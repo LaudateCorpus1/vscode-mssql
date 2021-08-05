@@ -15,6 +15,7 @@ export class InsertSqlBindingParams {
     functionName: string;
     objectName: string;
     bindingType: BindingType;
+    connectionStringSetting: string;
 }
 
 export class ResultStatus {
